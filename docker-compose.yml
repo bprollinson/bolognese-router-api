@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  router_api:
+    container_name: router_api
+    hostname: router_api
+    build: .
+    volumes:
+      - .:/root
